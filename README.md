@@ -64,7 +64,7 @@ Maize Well is built using a convolutional neural network for image classificatio
 
 Two convolutional layers were used for the first model with a softmax output to account for all four classes. As expected, this model resulted in a promising training accuracy score but a poor validation score - signaling overfitting. 
 
-![pre_augmentation](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/pre_augmentation.png) ![pre_augmentation_loss]((https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/pre_augmentation_loss.png)
+![pre_augmentation](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/pre_augmentation.png) ![pre_augmentation_loss](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/pre_augmentation_loss.png)
 
 Next, data augmentation was applied to the images. Data augmentation is a common method to combat overfitting. This process takes an image and changes it in various ways so that the model learns to differentiate to images in many different formats and appearances. Below we see how images can be augmented by changing the orientation or brightness. 
 
@@ -72,7 +72,7 @@ Next, data augmentation was applied to the images. Data augmentation is a common
 
 Although data augmentation solved for a good amount of the model's overfitting, adding a dropout layer was the final step in creating a dependable model that would perform well on new, unseen data. 
 
-![final_model_acc]((https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/final_model_acc.png) ![final_model](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/final_model.png)
+![final_model_acc](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/final_model_acc.png) ![final_model](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/final_model.png)
 
 ## Conclusion 
 
