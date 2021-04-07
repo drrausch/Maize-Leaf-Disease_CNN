@@ -1,1 +1,0 @@
-# Maize-Leaf-Disease_Phase-4
