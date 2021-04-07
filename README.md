@@ -12,8 +12,9 @@ Corn is a highly significant crop throughout the planet and is at the center of 
 
 ## Business Problem 
 
-Corn is an integral part of the agricultural ecosystem and both the American and global economy. According to the United States Grain Council, the US is the largest corn producer in the world, with 96,000,000 acres of land reserved for corn production. "In the 2018/2019 crop marketing year, (Sept. 1- Aug. 31) the United States grew more than 14.42 billion bushels (366 million metric tons) of corn. Roughly 14.3 percent of production was exported to more than 73 different countries."
-Considering how much of an impact corn has on agriculture and economy, it is imperative that farmers be able to avoid the occurrence of leaf diseases affecting their crops. With acres of corn to care for, it can be difficult and time-consuming to identify diseased plants. Since diseased corn plants are not able to be harvested, continuing to water them and care for them is a waste of resources and time.
+Corn is an integral part of the agricultural ecosystem and both the American and global economy. According to the United States Grain Council, the US is the largest corn producer in the world, with 96,000,000 acres of land reserved for corn production. "In the 2018/2019 crop marketing year, (Sept. 1- Aug. 31) the United States grew more than 14.42 billion bushels (366 million metric tons) of corn. Roughly 14.3 percent of production was exported to more than 73 different countries." Considering how much of an impact corn has on agriculture and economy, it is imperative that farmers be able to avoid the occurrence of leaf diseases affecting their crops. 
+
+With acres of corn to care for, it can be difficult and time-consuming to identify diseased plants. Since diseased corn plants are not able to be harvested, continuing to water them and care for them is a waste of resources and time.
 By developing a model to analyze and evaluate the health of corn plant leaves, Maize Well applies technology to the realm of nature, thereby making the process of identifying corn leaf diseases faster and easier for farmers.
 
 
@@ -66,7 +67,7 @@ Two convolutional layers were used for the first model with a softmax output to 
 
 ![pre_augmentation](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/pre_augmentation.png) ![pre_augmentation_loss](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/pre_augmentation_loss.png)
 
-Next, data augmentation was applied to the images. Data augmentation is a common method to combat overfitting. This process takes an image and changes it in various ways so that the model learns to differentiate to images in many different formats and appearances. Below we see how images can be augmented by changing the orientation or brightness. 
+Next, data augmentation was applied to the images. Data augmentation is a common method to combat overfitting. This process takes an image and changes it in various ways so that the model learns to differentiate images in many different formats and appearances. Below we see how images can be augmented by changing the orientation or brightness. 
 
 ![aug1](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/aug1.png) ![aug2](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/aug2.png)
 
