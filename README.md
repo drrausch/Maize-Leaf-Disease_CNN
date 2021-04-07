@@ -91,6 +91,6 @@ Adding location data to the model would be helpful for users as some diseases ar
 
 ## Want to Know More? 
 
-Check out our [Jupyter notebooks](Integrated_CornDisease_CNN) and [presentation](Presentation) here! 
+Check out our [Jupyter notebooks](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/main/Integrated_CornDisease_CNN.ipynb) and [presentation](Presentation) here! 
 
 For additional questions, reach out to **[Diane Tunnicliffe](diane.j.tunnicliffe@gmail.com)** and **[Dana Rausch](dana.rausch5@gmail.com).**
