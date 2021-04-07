@@ -1,4 +1,4 @@
-![corn_header2](data/images/corn_header2.png)
+![corn_header2](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/CornHeader2.jpg)
 
 # Maize Well 
 
@@ -23,6 +23,7 @@ Our data was sourced from https://www.kaggle.com/smaranjitghose/corn-or-maize-le
 This is a dataset for classification of corn/maize plant leaf diseases.
 
 The images are in 4 folders, classified as follows: 
+
 0. Common Rust - 1306 images
 1. Gray Leaf Spot - 574 images
 2. Blight - 1146 images
@@ -32,29 +33,29 @@ The images are in 4 folders, classified as follows:
 
 "Common rust is caused by the fungus Puccinia sorghi and occurs every growing season. It is seldom a concern in hybrid corn. Rust pustules usually first appear in late June. Early symptoms of common rust are chlorotic flecks on the leaf surface. ... The lesions sometimes form a band across the leaf and entire leaves will die if severely infected. ... Husks, leaf sheaths, and stalks also may be infected." [source](https://cropprotectionnetwork.org/)
 
-![rust](data/images/rust.png)
+![rust](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/rust.png)
 
 #### Gray Leaf Spot
 
 "Gray leaf spot, caused by the fungus Cercospora zeae-maydis, occurs virtually every growing season. If conditions favor disease development, economic losses can occur. Symptoms first appear on lower leaves about two to three weeks before tasseling. The leaf lesions are long (up to 2 inches), narrow, rectangular, and light tan colored. Later, the lesions can turn gray. They are usually delimited by leaf veins but can join together and kill entire leaves." [source](https://cropprotectionnetwork.org/)
 
-![gray](data/images/rust.png)
+![gray](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/gray.png)
 
 #### Blight
 
 "Northern corn leaf blight (NCLB) is caused by the fungus Setosphaeria turcica. Symptoms usually appear first on the lower leaves. Leaf lesions are long (1 to 6 inches) and elliptical, gray-green at first but then turn pale gray or tan. Under moist conditions, dark gray spores are produced, usually on the lower leaf surface, which give lesions a "dirty" gray appearance. Entire leaves on severely blighted plants can die, so individual lesions are not visible." [source](https://cropprotectionnetwork.org/)
 
-![blight](data/images/rust.png)
+![blight](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/rust.png)
 
 #### Healthy 
 
 Healthy corn leaves have no disease or cause for concern.
 
-![healthy](data/images/heathly.png)
+![healthy](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/healthy.png)
 
 Each class has healthy representation as the dataset is relatively balanced. As illustrated in the visual below, Gray Leaf Spot has slightly fewer images than the other three classes, but is still adequately represented and causes no concern. 
 
-![representation](data/images/representation.png) 
+![representation](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/representation.png) 
 
 
 ## Methodology & Results
@@ -63,15 +64,15 @@ Maize Well is built using a convolutional neural network for image classificatio
 
 Two convolutional layers were used for the first model with a softmax output to account for all four classes. As expected, this model resulted in a promising training accuracy score but a poor validation score - signaling overfitting. 
 
-![pre_augmentation](data/images/pre_augmentation.png)
+![pre_augmentation](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/pre_augmentation.png)
 
 Next, data augmentation was applied to the images. Data augmentation is a common method to combat overfitting. This process takes an image and changes it in various ways so that the model learns to differentiate to images in many different formats and appearances. Below we see how images can be augmented by changing the orientation or brightness. 
 
-![aug1](data/images/aug1.png) ![aug2](data/images/aug2.png)
+![aug1](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/aug1.png) ![aug2](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/aug2.png)
 
 Although data augmentation solved for a good amount of the model's overfitting, adding a dropout layer was the final step in creating a dependable model that would perform well on new, unseen data. 
 
-![final_model](data/images/final_model.png)
+![final_model](https://github.com/drrausch/Maize-Leaf-Disease_Phase-4/blob/dana/images/final_model.png)
 
 ## Conclusion 
 
